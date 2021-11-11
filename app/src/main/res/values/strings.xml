@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Datos a Excel</string>
+    <string name="error1">Error de conexión.</string>
+    <string name="error">Debe agregar la imagen para poder cargar la informacion.</string>
+</resources>

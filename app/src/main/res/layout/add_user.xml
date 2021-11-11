@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context="alabs.gsheetwithimage.AddUser"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_uid"
+        android:layout_width="308dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="User ID"
+        android:inputType="textPersonName"
+        android:textColorLink="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_uphoto"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <EditText
+        android:id="@+id/et_uname"
+        android:layout_width="308dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:textColorLink="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_uid"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/iv_uphoto"
+        android:layout_width="303dp"
+        android:layout_height="378dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/btn_add_user"
+        android:layout_width="88dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorAccent"
+        android:text="Agregar"
+        android:textColor="#311B92"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_uname"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <ImageButton
+        android:id="@+id/imgBuscar"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="8dp"
+
+        android:background="@drawable/descarga"
+        android:shape="oval"
+        app:layout_constraintBottom_toTopOf="@+id/et_uid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779"
+        tools:ignore="SpeakableTextPresentCheck" />
+</android.support.constraint.ConstraintLayout>
