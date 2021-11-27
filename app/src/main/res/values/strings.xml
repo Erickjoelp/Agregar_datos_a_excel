@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">Datos a Excel</string>
+    <string name="app_name">Test en nube</string>
+    <string name="error">nnnnnn</string>
     <string name="error1">Error de conexión.</string>
-    <string name="error">Debe agregar la imagen para poder cargar la informacion.</string>
+    <string name="error2">Debe agregar una imagen para poder adjuntar la informacion.</string>
+    <string name="error3">La Hoja de excel no esta conectada, contacta con el Admin.</string>
+    <string name="empty_field">Campo obligatorio</string>
 </resources>

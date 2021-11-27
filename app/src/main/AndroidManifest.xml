@@ -11,8 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
 
+
         <activity android:name=".AddUser"/>
         <activity android:name=".UserList"/>
+        <activity android:name=".Inicio"/>
         <activity android:name=".MainActivity"
             android:exported="true">
 
